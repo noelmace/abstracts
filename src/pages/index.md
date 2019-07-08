@@ -3,7 +3,7 @@ templateKey: index-page
 title: Bonita Talks
 image: /img/homepage_marquee_f.jpg
 heading: Have fun public speaking with Bonita!
-subheading: Talks, abstracts & more, from Bonitasoft
+subheading: Talks abstracts & more, with ♡ from Bonitasoft
 mainpitch:
   title: Why this project
   description: >
