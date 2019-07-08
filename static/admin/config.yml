@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: noelmace/talks
+  repo: bonitasoft-labs/talks
 
 media_folder: static/img
 public_folder: /img
