@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: talks-post
 title: P.R.P.L Pattern
 talktitle: "\U0001F9B8‍♂️PRPL: it’s time to learn up with the Fantastic Four!"
 date: 2019-05-05T15:21:42.938Z
@@ -19,7 +19,7 @@ Do you know about the PRPL Pattern?
 
 It’s THE pattern to follow when you want good performances with your Web App, using cutting edge, modern web capabilities like HTTP/2, preload, service workers and ES modules.
 
-Maybe you have heard about it, through a conference or blog post. Maybe it sounded really cool, but when it comes to reality, well... it looked pretty complicated…
+Maybe you have heard about it, through a conference or talks post. Maybe it sounded really cool, but when it comes to reality, well... it looked pretty complicated…
 
 I have good news for you: it’s not! Using the right tools; like PRPL-Server for example, it couldn't be easier.
 

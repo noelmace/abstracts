@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: talks-post
 title: VanillaJS  state of the art
 talktitle: "Brace yourself, \U0001F366Vanilla is coming … back \U0001F576!"
 date: 2019-07-08T12:43:57.489Z

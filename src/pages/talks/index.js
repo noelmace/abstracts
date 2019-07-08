@@ -1,9 +1,9 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import TalksRoll from '../../components/TalksRoll'
 
-export default class BlogIndexPage extends React.Component {
+export default class TalksIndexPage extends React.Component {
   render() {
     return (
       <Layout>
@@ -28,7 +28,7 @@ export default class BlogIndexPage extends React.Component {
         <section className="section">
           <div className="container">
             <div className="content">
-              <BlogRoll />
+              <TalksRoll />
             </div>
           </div>
         </section>

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import BlogRoll from '../components/BlogRoll'
+import TalksRoll from '../components/TalksRoll'
 
 export const IndexPageTemplate = ({
   image,
@@ -82,9 +82,9 @@ export const IndexPageTemplate = ({
                   <h3 className="has-text-weight-semibold is-size-2">
                     Our talks
                   </h3>
-                  <BlogRoll />
+                  <TalksRoll />
                   <div className="column is-12 has-text-centered">
-                    <Link className="btn" to="/blog">
+                    <Link className="btn" to="/talks">
                       Read more
                     </Link>
                   </div>

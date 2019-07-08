@@ -4,7 +4,7 @@ Contributions are always welcome, no matter how large or small. Please feel free
 
 ## talks abstracts
 
-Our talks abstracts are written using markdown in [pages/blog/].
+Our talks abstracts are written using markdown in [pages/talks/].
 Feel free to open a pull request or an issue if you see any typo, error, or simply what to discuss our abstracts content.
 
 ## Setup

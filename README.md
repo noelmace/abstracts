@@ -10,5 +10,5 @@ Go check [the website](http://bonita-talks.netlify.com) for more informations ab
 
 ## CONTRIBUTING
 
-Contributions are always welcome, no matter how large or small, being on the website itself or our [talks abstracts](src/pages/blog). Before contributing,
+Contributions are always welcome, no matter how large or small, being on the website itself or our [talks abstracts](src/pages/talks). Before contributing,
 please read the [CONTRIBUTING.md](CONTRIBUTING.md).

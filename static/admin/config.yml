@@ -6,12 +6,12 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "src/pages/blog"
+  - name: "talks"
+    label: "Talks"
+    folder: "src/pages/talks"
     create: true
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "talks-post"}
       - {label: "Generic Title", name: "title", widget: "string"}
       - {label: "Talk Title", name: "talktitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}

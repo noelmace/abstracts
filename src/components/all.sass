@@ -115,18 +115,18 @@ $menu-label-color: $white-ter
     vertical-align: middle
     display: inline
 
-// blog roll
-.blog-list-item.is-featured
+// talks roll
+.talks-list-item.is-featured
   background-color: $bonitasoft-red-light;
   .has-text-primary
     color: $bonitasoft-red-dark !important;
-.blog-list-item header
+.talks-list-item header
   display: flex;
   margin-bottom: 1em;
-.blog-list-item .featured-thumbnail
+.talks-list-item .featured-thumbnail
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
-.blog-list-item a.title
+.talks-list-item a.title
   text-decoration: none !important;
 
 
@@ -136,13 +136,13 @@ $menu-label-color: $white-ter
 
 // responsiveness
 +tablet-only
-  .blog-list-item .featured-thumbnail
+  .talks-list-item .featured-thumbnail
     flex-basis: 50%;
 
 +mobile
-  .blog-list-item header
+  .talks-list-item header
     display: block
-  .blog-list-item .featured-thumbnail
+  .talks-list-item .featured-thumbnail
     text-align: center;
     max-width: 70%;
     margin: 0 0 1em;
