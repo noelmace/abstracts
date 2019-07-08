@@ -5,7 +5,7 @@ date: 2019-07-08T12:43:57.489Z
 description: Embrace the power of the Web Platform! A real-life practical guide.  
 featuredpost: true
 author: Noël Macé
-featuredimage: /img/vanillin.svg
+featuredimage: /img/vanillin-250x250.png
 tags:
   - web
 selectedat:
