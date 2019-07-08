@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
-import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class BlogRoll extends React.Component {
   render() {
@@ -19,33 +18,18 @@ class BlogRoll extends React.Component {
                 }`}
               >
                 <header>
-                  {post.frontmatter.featuredimage ? (
-                    <div className="featured-thumbnail">
-                      <PreviewCompatibleImage
-                        imageInfo={{
-                          image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${
-                            post.title
-                          }`,
-                        }}
-                      />
-                    </div>
-                  ) : null}
-                  <p className="post-meta">
+                  <p className="post-meta has-text-centered">
                     <Link
-                      className="title has-text-primary is-size-5"
+                      className="title has-text-primary is-size-4 is-block"
                       to={post.fields.slug}
                     >
-                      {post.frontmatter.title}
+                      {post.frontmatter.talktitle}
                     </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">{post.frontmatter.talktitle}</span>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.description}
-                    </span>
                   </p>
                 </header>
+                <p className="">
+                  {post.frontmatter.description}
+                </p>
                 <p>
                   {post.excerpt}
                   <br />
@@ -87,16 +71,11 @@ export default () => (
               }
               frontmatter {
                 title
+                talktitle
                 templateKey
+                description
                 date(formatString: "MMMM DD, YYYY")
                 featuredpost
-                featuredimage {
-                  childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
-                      ...GatsbyImageSharpFluid
-                    }
-                  }
-                }
               }
             }
           }

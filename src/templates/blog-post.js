@@ -11,8 +11,13 @@ export const BlogPostTemplate = ({
   contentComponent,
   description,
   tags,
+  presentedat,
+  selectedat,
   title,
   talktitle,
+  author,
+  date,
+  type,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -23,11 +28,52 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-3 has-text-weight-bold is-bold-light">
+            <p className="is-size-5 has-text-weight-bold is-bold-light">
               {title}
-            </h1>
-            <p className="title is-size-2 has-text-weight-bold is-bold-light">{talktitle}</p>
-            <p className="has-text-weight-bold is-bold-light">{description}</p>
+            </p>
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{talktitle}</h1>
+            <p className="is-size-4 has-text-weight-bold is-bold-light">{description}</p>
+            <table class="table is-striped is-fullwidth is-bordered">
+              <tbody>
+                <tr>
+                  <td>Author</td>
+                  <td>{author}</td>
+                </tr>
+                <tr>
+                  <td>Last Major Update</td>
+                  <td>{date}</td>
+                </tr>
+                <tr>
+                  <td>Type</td>
+                  <td>{type}</td>
+                </tr>
+                {selectedat && selectedat.length ? (
+                  <tr>
+                    <td>Will be given at</td>
+                    <td>
+                        {selectedat.map(event => (
+                          <div key={event + `event`}>
+                            {event}
+                          </div>
+                        ))}
+                    </td>
+                  </tr>
+                ) : null}
+                {presentedat && presentedat.length ? (
+                  <tr>
+                    <td>Already given at</td>
+                    <td>
+                        {presentedat.map(event => (
+                          <div key={event + `event`}>
+                            {event}
+                          </div>
+                        ))}
+                    </td>
+                  </tr>
+                ) : null}
+              </tbody>
+            </table>
+            <h2>Abstract</h2>
             <PostContent content={content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
@@ -54,6 +100,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
+  talktitle: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -66,9 +113,14 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
+        talktitle={`${post.frontmatter.talktitle}`}
         helmet={
           <Helmet titleTemplate="%s | Blog">
             <title>{`${post.frontmatter.title}`}</title>
+            <meta
+              name="talktitle"
+              content={`${post.frontmatter.talktitle}`}
+            />
             <meta
               name="description"
               content={`${post.frontmatter.description}`}
@@ -76,7 +128,12 @@ const BlogPost = ({ data }) => {
           </Helmet>
         }
         tags={post.frontmatter.tags}
+        selectedat={post.frontmatter.selectedat}
+        presentedat={post.frontmatter.presentedat}
         title={post.frontmatter.title}
+        author={post.frontmatter.author}
+        date={post.frontmatter.date}
+        type={post.frontmatter.type}
       />
     </Layout>
   )
@@ -98,8 +155,13 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         title
+        type
+        talktitle
         description
         tags
+        selectedat
+        presentedat
+        author
       }
     }
   }

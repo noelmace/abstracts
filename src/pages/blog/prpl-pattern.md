@@ -4,12 +4,9 @@ title: P.R.P.L Pattern
 talktitle: "\U0001F9B8‍♂️PRPL: it’s time to learn up with the Fantastic Four!"
 date: 2019-05-05T15:21:42.938Z
 featuredpost: true
-featuredimage: /img/fantastic-four.jpg
 description: The Web Performance pattern you should already know!
 author: Noël Macé
 type: conference (30-45min)
-selectedat:
-  - na
 presentedat:
   - Best of Web 2019
 tags:
