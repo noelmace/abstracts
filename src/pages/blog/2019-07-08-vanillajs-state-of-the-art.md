@@ -1,24 +1,11 @@
 ---
 templateKey: blog-post
 title: VanillaJS  state of the art
+talktitle: "Brace yourself, \U0001F366Vanilla is coming … back \U0001F576!"
 date: 2019-07-08T12:43:57.489Z
 featuredpost: true
 featuredimage: /img/vanillin-250x250.png
 description: Embrace the power of the Web Platform! A real-life practical guide.
-abstract: >-
-  In a world of complex and sophisticated flavors, the battle for toppings among
-  the ice cream families is raging in Web-steros! Who knows who will win between
-  the crunchies of the Angular castle, the hot fudge of the React lands, or the
-  sprinkles of the Vue islands?!
-
-
-  During this time, in another place, the independent Vanilla walks towards his
-  destiny. Could he be the hero from the legend, whom could turn things around?
-
-
-  Hear my story, traveler! My old eyes have seen him in these lands! Let me tell
-  you how he helped us taking down our old king, and you shall learn how he
-  could help you too...
 author: Noël Macé
 type: conference (30-45min)
 selectedat:
