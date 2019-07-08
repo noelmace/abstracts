@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.0" width="855" height="768" xml:space="preserve">
+<style type="text/css"><![CDATA[
+   text {font-family: Arial; font-size: 100px}
+   .small {font-size: 75px}
+]]></style>
+<rect width="855" height="768" x="0" y="0" style="fill: white" />
+<g transform="translate(41.993164,37.053234)">
+<polygon points="482,264.8 486,262.3 490,264.8 490,408.8 482,403.8 482,264.8" />
+<polygon points="361,194.8 361,185.8 486,257.8 486,262.3 482,264.8 361,194.8" />
+<polygon points="240.5,264.8 232.5,259.8 361,185.8 361,194.8 240.5,264.8" />
+<polygon points="240.5,403.8 236.5,406.3 232.5,403.8 232.5,259.8 240.5,264.8 240.5,403.8" />
+<polygon points="361,473.8 361,478.3 357,480.8 236.5,410.8 236.5,406.3 240.5,403.8 361,473.8" />
+<polygon points="482,403.8 490,408.8 365,480.8 361,478.3 361,473.8 482,403.8" />
+<polygon points="610,185.8 610,195.3 490,264.8 486,262.3 486,257.8 610,185.8" />
+<polygon points="691,232.8 687,239.8 610,195.3 610,185.8 691,232.8" />
+<polygon points="152.5,459.3 148.5,452.3 232.5,403.8 236.5,406.3 236.5,410.8 152.5,459.3" />
+<polygon points="365,576.3 357,576.3 357,480.8 361,478.3 365,480.8 365,576.3" />
+<rect width="8" height="114" x="456" y="277.3" />
+<rect width="8" height="114" x="307.7" y="191.9" transform="matrix(0.4962,0.8682,-0.8682,0.4962,373.0657,-145.3173)" />
+<rect width="8" height="114" x="307.7" y="362.9" transform="matrix(0.4959,-0.8684,0.8684,0.4959,-207.3947,482.3092)" />
+<rect width="8" height="99.5" x="593" y="98.3" />
+<rect width="8" height="99.5" x="619" y="98.3" />
+<text x="698.5" y="301.3">H</text>
+<text x="571" y="85.8">O</text>
+<text x="0" y="516.8">HO</text>
+<text x="322" y="660.8">OCH</text>
+<text x="544.2" y="679.5" class="small">3</text>
+</g>
+</svg>
