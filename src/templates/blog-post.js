@@ -33,7 +33,7 @@ export const BlogPostTemplate = ({
             </p>
             <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{talktitle}</h1>
             <p className="is-size-4 has-text-weight-bold is-bold-light">{description}</p>
-            <table class="table is-striped is-fullwidth is-bordered">
+            <table className="table is-striped is-fullwidth is-bordered">
               <tbody>
                 {authors && authors.length ? (
                   <tr>
