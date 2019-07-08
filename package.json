@@ -1,8 +1,12 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
-  "version": "1.1.3",
-  "author": "Austin Green",
+  "name": "bonita-talks",
+  "description": "Talks by Bonitasofters",
+  "version": "0.0.0",
+  "author": {
+    "name": "Noël Macé",
+    "email": "noel.mace@bonitasoft.com",
+    "url": "https://fire.noelmace.com"
+  },
   "dependencies": {
     "bulma": "^0.7.0",
     "gatsby": "^2.1.34",
@@ -33,7 +37,9 @@
     "uuid": "^3.2.1"
   },
   "keywords": [
-    "gatsby"
+    "talks",
+    "abstracts",
+    "speakers"
   ],
   "license": "MIT",
   "main": "n/a",
