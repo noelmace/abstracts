@@ -5,7 +5,8 @@ talktitle: "Brace yourself, \U0001F366Vanilla is coming … back \U0001F576!"
 date: 2019-07-08T12:43:57.489Z
 featuredpost: true
 description: Embrace the power of the Web Platform! A real-life practical guide.
-author: Noël Macé
+authors:
+  - Noël Macé
 type: conference (30-45min)
 selectedat:
   - Devfest Toulouse 2019

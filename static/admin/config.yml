@@ -17,11 +17,11 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured", name: "featuredpost", widget: "boolean"}
       - {label: "Short Summary", name: "description", widget: "text"}
-      - {label: "Author", name: "author", widget: "text"}
+      - {label: "Author(s)", name: "authors", widget: "list"}
       - {label: "Type", name: "type", widget: "select", options: ["conference (30-45min)", "quicky (15min)", "lightning (5min)", "Deep dive (2-3h)", "Workshop"]}
       - {label: "Abstract, details & notes", name: "body", widget: "markdown"}
-      - {label: "Selected At", name: "selectedat", widget: "list"}
-      - {label: "Presented At", name: "presentedat", widget: "list"}
+      - {label: "Selected At", name: "selectedat", widget: "list", required: false}
+      - {label: "Presented At", name: "presentedat", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list"}
   - name: "pages"
     label: "Pages"

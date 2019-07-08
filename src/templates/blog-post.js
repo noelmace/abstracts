@@ -15,7 +15,7 @@ export const BlogPostTemplate = ({
   selectedat,
   title,
   talktitle,
-  author,
+  authors,
   date,
   type,
   helmet,
@@ -35,10 +35,18 @@ export const BlogPostTemplate = ({
             <p className="is-size-4 has-text-weight-bold is-bold-light">{description}</p>
             <table class="table is-striped is-fullwidth is-bordered">
               <tbody>
-                <tr>
-                  <td>Author</td>
-                  <td>{author}</td>
-                </tr>
+                {authors && authors.length ? (
+                  <tr>
+                    <td>Authors</td>
+                    <td>
+                        {authors.map(author => (
+                          <div key={author + `author`}>
+                            {author}
+                          </div>
+                        ))}
+                    </td>
+                  </tr>
+                ) : null}
                 <tr>
                   <td>Last Major Update</td>
                   <td>{date}</td>
@@ -131,7 +139,7 @@ const BlogPost = ({ data }) => {
         selectedat={post.frontmatter.selectedat}
         presentedat={post.frontmatter.presentedat}
         title={post.frontmatter.title}
-        author={post.frontmatter.author}
+        authors={post.frontmatter.authors}
         date={post.frontmatter.date}
         type={post.frontmatter.type}
       />
@@ -161,7 +169,7 @@ export const pageQuery = graphql`
         tags
         selectedat
         presentedat
-        author
+        authors
       }
     }
   }

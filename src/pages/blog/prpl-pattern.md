@@ -5,7 +5,8 @@ talktitle: "\U0001F9B8‍♂️PRPL: it’s time to learn up with the Fantastic 
 date: 2019-05-05T15:21:42.938Z
 featuredpost: true
 description: The Web Performance pattern you should already know!
-author: Noël Macé
+authors:
+  - Noël Macé
 type: conference (30-45min)
 presentedat:
   - Best of Web 2019
