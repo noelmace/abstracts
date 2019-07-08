@@ -12,15 +12,15 @@ collections:
     create: true
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog-post"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Generic Title", name: "title", widget: "string"}
+      - {label: "Talk Title", name: "talktitle", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured", name: "featuredpost", widget: "boolean"}
       - {label: "Featured Image", name: "featuredimage", widget: image}
       - {label: "Short Summary", name: "description", widget: "text"}
-      - {label: "Abstract", name: "abstract", widget: "markdown"}
       - {label: "Author", name: "author", widget: "text"}
       - {label: "Type", name: "type", widget: "select", options: ["conference (30-45min)", "quicky (15min)", "lightning (5min)", "Deep dive (2-3h)", "Workshop"]}
-      - {label: "Details", name: "body", widget: "markdown"}
+      - {label: "Abstract, details & notes", name: "body", widget: "markdown"}
       - {label: "Selected At", name: "selectedat", widget: "list"}
       - {label: "Presented At", name: "presentedat", widget: "list"}
       - {label: "Tags", name: "tags", widget: "list"}
