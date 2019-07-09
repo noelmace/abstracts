@@ -15,6 +15,9 @@ tags:
   - webdev
   - web performance
   - HTTP/2
+slides: https://fire.noelmace.com/BoW-PRPL-2019.html#/
+videos:
+  - https://youtu.be/xw2I8i_FQus
 bodyfr: |
   Le PRPL Pattern, tu connais ?
 
