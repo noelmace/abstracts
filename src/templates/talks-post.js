@@ -1,26 +1,36 @@
-import React from 'react'
+import React, {useState} from 'react'
 import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import showdown from 'showdown'
+
+const converter = new showdown.Converter()
 
 export const TalksPostTemplate = ({
   content,
   contentComponent,
+  contentfr,
   description,
+  descriptionfr,
   tags,
   presentedat,
   selectedat,
   title,
   talktitle,
+  talktitlefr,
   authors,
   date,
   type,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
+
+  const [isFr, setFrState] = useState(false);
+
+  const toggleFr = () => setFrState(!isFr);
 
   return (
     <section className="section">
@@ -31,8 +41,12 @@ export const TalksPostTemplate = ({
             <p className="is-size-5 has-text-weight-bold is-bold-light">
               {title}
             </p>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{talktitle}</h1>
-            <p className="is-size-4 has-text-weight-bold is-bold-light">{description}</p>
+            <div className="field">
+              <input id="showfr" type="checkbox" name="showfr" className="switch is-primary" checked={isFr} onChange={toggleFr}></input>
+              <label htmlFor="showfr">French translation (where available)</label>
+            </div>
+            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{(isFr && talktitlefr) || talktitle}</h1>
+            <p className="is-size-4 has-text-weight-bold is-bold-light">{(isFr && descriptionfr) || description}</p>
             <table className="table is-striped is-fullwidth is-bordered">
               <tbody>
                 {authors && authors.length ? (
@@ -82,7 +96,7 @@ export const TalksPostTemplate = ({
               </tbody>
             </table>
             <h2>Abstract</h2>
-            <PostContent content={content} />
+            <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -104,11 +118,12 @@ export const TalksPostTemplate = ({
 
 TalksPostTemplate.propTypes = {
   content: PropTypes.node.isRequired,
-  abstract: PropTypes.node.isRequired,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
+  descriptionfr: PropTypes.string,
   title: PropTypes.string,
   talktitle: PropTypes.string,
+  talktitlefr: PropTypes.string,
   helmet: PropTypes.object,
 }
 
@@ -119,9 +134,12 @@ const TalksPost = ({ data }) => {
     <Layout>
       <TalksPostTemplate
         content={post.html}
+        contentfr={post.frontmatter.bodyfr}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        talktitle={`${post.frontmatter.talktitle}`}
+        descriptionfr={post.frontmatter.descriptionfr}
+        talktitle={post.frontmatter.talktitle}
+        talktitlefr={post.frontmatter.talktitlefr}
         helmet={
           <Helmet titleTemplate="%s | Talks">
             <title>{`${post.frontmatter.title}`}</title>
@@ -130,8 +148,16 @@ const TalksPost = ({ data }) => {
               content={`${post.frontmatter.talktitle}`}
             />
             <meta
+              name="talktitlefr"
+              content={`${post.frontmatter.talktitlefr}`}
+            />
+            <meta
               name="description"
               content={`${post.frontmatter.description}`}
+            />
+            <meta
+              name="descriptionfr"
+              content={`${post.frontmatter.descriptionfr}`}
             />
           </Helmet>
         }
@@ -162,10 +188,13 @@ export const pageQuery = graphql`
       html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
+        bodyfr
         title
         type
         talktitle
+        talktitlefr
         description
+        descriptionfr
         tags
         selectedat
         presentedat
