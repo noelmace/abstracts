@@ -24,6 +24,8 @@ collections:
       - {label: "Type", name: "type", widget: "select", options: ["conference (30-45min)", "quicky (15min)", "lightning (5min)", "Deep dive (2-3h)", "Workshop"]}
       - {label: "Selected At", name: "selectedat", widget: "list", required: false}
       - {label: "Presented At", name: "presentedat", widget: "list", required: false}
+      - {label: "Slides (url)", name: "slides", widget: "string", required: false}
+      - {label: "Videos (url)", name: "videos", widget: "list", required: false}
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Abstract, details & notes", name: "body", widget: "markdown"}
       - {label: "Résumé, détails & notes (fr)", name: "bodyfr", widget: "markdown", required: false}

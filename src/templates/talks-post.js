@@ -24,6 +24,8 @@ export const TalksPostTemplate = ({
   authors,
   date,
   type,
+  slides,
+  videos,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -93,6 +95,26 @@ export const TalksPostTemplate = ({
                     </td>
                   </tr>
                 ) : null}
+                {slides ? (
+                  <tr>
+                    <td>Slides</td>
+                    <td>
+                        <Link to={slides}>{slides}</Link>
+                    </td>
+                  </tr>
+                ) : null}
+                {videos && videos.length ? (
+                  <tr>
+                    <td>Videos</td>
+                    <td>
+                        {videos.map(video => (
+                          <Link to={video}>
+                            {video}
+                          </Link>
+                        ))}
+                    </td>
+                  </tr>
+                ) : null}
               </tbody>
             </table>
             <h2>Abstract</h2>
@@ -140,6 +162,8 @@ const TalksPost = ({ data }) => {
         descriptionfr={post.frontmatter.descriptionfr}
         talktitle={post.frontmatter.talktitle}
         talktitlefr={post.frontmatter.talktitlefr}
+        slides={post.frontmatter.slides}
+        videos={post.frontmatter.videos}
         helmet={
           <Helmet titleTemplate="%s | Talks">
             <title>{`${post.frontmatter.title}`}</title>
@@ -199,6 +223,8 @@ export const pageQuery = graphql`
         selectedat
         presentedat
         authors
+        slides
+        videos
       }
     }
   }
