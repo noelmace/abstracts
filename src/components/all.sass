@@ -132,7 +132,11 @@ $menu-label-color: $white-ter
 
 @import "~bulma"
 @import "~bulma/sass/elements/table.sass"
+@import '~bulma-switch';
 
+.switch.is-primary[type=checkbox]:checked + label::before,
+.switch.is-primary[type=checkbox]:checked + label:before,
+  background-color: $primary;
 
 // responsiveness
 +tablet-only

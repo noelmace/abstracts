@@ -2,6 +2,7 @@
 templateKey: talks-post
 title: P.R.P.L Pattern
 talktitle: "\U0001F9B8‍♂️PRPL: it’s time to learn up with the Fantastic Four!"
+talktitlefr: "Il est temps de rejoindre les 4 fantastiques du Web : Push, Render, Pre-cache & Lazy-load !"
 date: 2019-05-05T15:21:42.938Z
 featuredpost: true
 description: The Web Performance pattern you should already know!
@@ -14,6 +15,24 @@ tags:
   - webdev
   - web performance
   - HTTP/2
+bodyfr: |
+  Le PRPL Pattern, tu connais ?
+
+  Non ? Pour faire court, c'est juste LE pattern à mettre en place sur vos Web App pour de bonnes performances, en mettant à profit les dernières technos du web moderne comme l'HTTP/2, preload, les Services Workers ou encore les ES modules.
+
+  Sinon, c'est que tu as sans doute déjà lu un article par ci par là. Tu as peut-être alors trouvé ça vachement cool et novateur, mais bon, de là à le mettre en place dans le monde réel ... ça a quand même l'air sacrément compliqué.
+
+  Eh bien figure toi que non ! Avec des outils comme PRPL-Server par exemple, rien de plus simple !
+
+  Du coup, ça te dit une démo, un pas à pas, et quelques approfondissements sur les technos sous-jascentes ? Alors on y va !
+
+  ## Détails
+
+  Talk présenté au Best of Web 2019 (http://bestofweb.paris/).
+
+  Approfondissement du chapitre "Fast" (performance) de l'université "The Web is still on F.I.R.E." (faire le point sur le PWA en 2019) que j'ai donné au BreizhCamp 2019 (https://youtu.be/OQ-dr-7pLaA?t=1643 & https://www.breizhcamp.org/conference/programme/).
+
+  Voir le projet associé (en perpétuelle évolution), slides inclus : https://github.com/noelmace/web-on-fire
 ---
 Do you know about the PRPL Pattern?
 
