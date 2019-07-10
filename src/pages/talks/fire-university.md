@@ -1,6 +1,6 @@
 ---
 templateKey: talks-post
-title: FIRE university
+title: F.I.R.E. university
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!!"
 date: 2019-07-08T23:53:08.307Z
 featuredpost: true
@@ -14,6 +14,10 @@ selectedat:
   - ''
 presentedat:
   - BreizhCamp 2019
+slides: 'http://fire.noelmace.com'
+videos:
+  - 'https://youtu.be/OQ-dr-7pLaA'
+  - ''
 tags:
   - webdev
   - performance
