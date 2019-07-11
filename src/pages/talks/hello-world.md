@@ -10,4 +10,4 @@ type: conference (30-45min)
 tags:
   - webdev
 ---
-Their is erors in that! Au zis is bad!
+There are lots of erors in that! Au zis is bad!
