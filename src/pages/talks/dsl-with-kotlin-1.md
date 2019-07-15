@@ -17,7 +17,7 @@ tags:
   - DSL
   - language
 ---
-Sometime, code can get bulky, and not so easy to understand.
+Sometimes, code can get bulky, and not so easy to understand.
 The platform we created, Bonita, generates code to run business processes so you don't have to. You get to write only the code _you_ need and that's all! But if you want to entirely code your own process, instead of using our WYSIWYG, well... Java can get complicated.
 So, we decided to make a DSL (Domain Specific Language) for that, using nothing but Kotlin!
 Come see us live-code it, and you'll know everything you need in order to create your own DSL in less than an hour!
