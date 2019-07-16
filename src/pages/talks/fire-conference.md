@@ -68,12 +68,9 @@ The Web platform is constantly evolving...and it's been 4 years now that we are 
 
 It's time to get up to speed! Let's take a few minutes to:
 
-  1. take stock of the latest W3C, WICG and WHATWG drafts
+1. take stock of the latest W3C, WICG and WHATWG drafts
+2. demonstrate each of them in the browser
+3. present concrete applications and what each brings to our users
+4. explore a global methodology to always transition smoothly
 
-  2. demonstrate each of them in the browser
-
-  3. present concrete applications and what each brings to our users
-
-  4. explore a global methodology to always transition smoothly
-
-So, are you ready for the futur of the web?!
+So, are you ready for the future of the web?
