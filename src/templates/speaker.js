@@ -27,6 +27,7 @@ export const SpeakerTemplate = ({
   githubUrl,
   linkedinUrl,
   websiteUrl,
+  previoustalks,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -113,6 +114,12 @@ export const SpeakerTemplate = ({
               
               <h2>Bio</h2>
               <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
+              {previoustalks ? (
+                <>
+                <h2>Previous Talks</h2>
+                <PostContent content={converter.makeHtml(previoustalks)} />
+                </>
+              ) : null}
               <h2>Links</h2>
               <div className="social">
                 {twitterUrl ? (<a title="twitter" href={twitterUrl}>
@@ -181,6 +188,7 @@ const Speaker = ({ data }) => {
         githubUrl={post.frontmatter.github}
         linkedinUrl={post.frontmatter.linkedin}
         websiteUrl={post.frontmatter.website}
+        previoustalks={post.frontmatter.previoustalks}
         helmet={
           <Helmet titleTemplate="%s | Talks">
             <title>{`${post.frontmatter.firstname} ${post.frontmatter.lastname}`}</title>
@@ -214,6 +222,7 @@ export const pageQuery = graphql`
         github
         linkedin
         website
+        previoustalks
         picture {
           childImageSharp {
             fluid(maxWidth: 200, quality: 100) {
