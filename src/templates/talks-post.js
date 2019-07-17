@@ -129,7 +129,7 @@ export const TalksPostTemplate = ({
                 </tbody>
               </table>
               <h2>Abstract</h2>
-              <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
+              <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} danger={isFr && !!contentfr} />
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
                   <h4>Tags</h4>
@@ -151,7 +151,7 @@ export const TalksPostTemplate = ({
 }
 
 TalksPostTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
+  content: PropTypes.node,
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   descriptionfr: PropTypes.string,

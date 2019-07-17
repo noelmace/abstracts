@@ -113,11 +113,11 @@ export const SpeakerTemplate = ({
               </div>
               
               <h2>Bio</h2>
-              <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
+              <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} danger={ isFr && !!contentfr }/>
               {previoustalks ? (
                 <>
                 <h2>Previous Talks</h2>
-                <PostContent content={converter.makeHtml(previoustalks)} />
+                <PostContent content={converter.makeHtml(previoustalks)} danger="true"/>
                 </>
               ) : null}
               <h2>Links</h2>
@@ -161,7 +161,7 @@ export const SpeakerTemplate = ({
 }
 
 SpeakerTemplate.propTypes = {
-  content: PropTypes.node.isRequired,
+  content: PropTypes.node,
   contentComponent: PropTypes.func,
   alias: PropTypes.string,
   firstname: PropTypes.string,
