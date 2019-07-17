@@ -67,9 +67,9 @@ export const TalksPostTemplate = ({
                       <td>Authors</td>
                       <td>
                           {authors.map(author => (
-                            <div key={author + `author`}>
+                            <Link to={`/speakers/${author}`} key={author + `author`} className="is-block">
                               {author}
-                            </div>
+                            </Link>
                           ))}
                       </td>
                     </tr>

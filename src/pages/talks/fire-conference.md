@@ -6,7 +6,7 @@ date: 2019-07-10T08:04:46.842Z
 featuredpost: true
 descriptionfr: "Toutes les dernières nouveautés de la Web Platform, leurs apports niveau UX, et des cas concret ! En un talk ! \U0001F92F\n\n"
 authors:
-  - Noël Macé
+  - noelmace
 type: conference (30-45min)
 slides: 'https://fire.noelmace.com'
 videos:

@@ -8,7 +8,7 @@ description: >-
   The F.I.R.E. safety kit for everyone! Learn the best new capabilities of the
   modern web in one shot without burning out!
 authors:
-  - Noël Macé
+  - noelmace
 type: Deep dive (2-3h)
 selectedat:
   - ''
