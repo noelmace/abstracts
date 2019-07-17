@@ -11,6 +11,7 @@ export default class TalksIndexPage extends React.Component {
           className="full-width-image-container margin-top-0"
           style={{
             backgroundImage: `url('/img/keyboard.jpeg')`,
+            backgroundSize: 'cover'
           }}
         >
           <h1
