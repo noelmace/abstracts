@@ -2,7 +2,7 @@
 templateKey: talks-post
 title: FIRE conference
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!! (conference edition)"
-date: 2019-07-10T08:04:46.842Z
+date: 2019-07-10
 featuredpost: true
 descriptionfr: "Toutes les dernières nouveautés de la Web Platform, leurs apports niveau UX, et des cas concret ! En un talk ! \U0001F92F\n\n"
 authors:
