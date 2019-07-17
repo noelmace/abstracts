@@ -25,7 +25,7 @@ class SpeakersRoll extends React.Component {
                           alt: `profile picture of ${
                             speaker.frontmatter.alias
                           }`,
-                          style: { maxHeight: '5em' }
+                          style: { maxWidth: '5em' }
                         }}
                       />
                     </div>
@@ -88,7 +88,7 @@ export default () => (
                 jobtitle
                 picture {
                   childImageSharp {
-                    fluid(maxWidth: 120, quality: 100) {
+                    fluid(maxWidth: 80, quality: 100) {
                       ...GatsbyImageSharpFluid
                     }
                   }
