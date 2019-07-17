@@ -1,9 +1,7 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import TalksRoll from '../../components/SpeakersRoll'
 import SpeakersRoll from '../../components/SpeakersRoll';
-
 export default class SpeakersIndexPage extends React.Component {
   render() {
     return (
