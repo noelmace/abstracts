@@ -29,6 +29,23 @@ collections:
       - {label: "Tags", name: "tags", widget: "list"}
       - {label: "Abstract, details & notes", name: "body", widget: "markdown"}
       - {label: "Résumé, détails & notes (fr)", name: "bodyfr", widget: "markdown", required: false}
+  - name: "speakers"
+    label: "Speakers"
+    folder: "src/pages/speakers"
+    create: true
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "speaker"}
+      - {label: "Alias", name: "alias", widget: "string"}
+      - {label: "First Name", name: "firstname", widget: "string"}
+      - {label: "Last Name", name: "lantname", widget: "string"}
+      - {label: "Job Title", name: "jobtitle", widget: "string"}
+      - {label: "Bio", name: "body", widget: "markdown", required: false}
+      - {label: "Bio (fr)", name: "bodyfr", widget: "markdown", required: false}
+      - {label: "Twitter (absolute url)", name: "twitter", widget: "string", required: false}
+      - {label: "Github (absolute url)", name: "github", widget: "string", required: false}
+      - {label: "Linkedin (absolute url)", name: "linkedin", widget: "string", required: false}
+      - {label: "Website (absolute url)", name: "website", widget: "string", required: false}
+      - {label: "List all of your previous speaking engagements", name: "previoustalks", widget: "markdown", required: false}
   - name: "pages"
     label: "Pages"
     files:
