@@ -35,106 +35,118 @@ export const TalksPostTemplate = ({
   const toggleFr = () => setFrState(!isFr);
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <p className="is-size-5 has-text-weight-bold is-bold-light">
-              {title}
-            </p>
-            <div className="field">
-              <input id="showfr" type="checkbox" name="showfr" className="switch is-primary" checked={isFr} onChange={toggleFr}></input>
-              <label htmlFor="showfr">French translation (where available)</label>
-            </div>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{(isFr && talktitlefr) || talktitle}</h1>
-            <p className="is-size-4 has-text-weight-bold is-bold-light">{(isFr && descriptionfr) || description}</p>
-            <table className="table is-striped is-fullwidth is-bordered">
-              <tbody>
-                {authors && authors.length ? (
-                  <tr>
-                    <td>Authors</td>
-                    <td>
-                        {authors.map(author => (
-                          <div key={author + `author`}>
-                            {author}
-                          </div>
-                        ))}
-                    </td>
-                  </tr>
-                ) : null}
-                <tr>
-                  <td>Last Major Update</td>
-                  <td>{date}</td>
-                </tr>
-                <tr>
-                  <td>Type</td>
-                  <td>{type}</td>
-                </tr>
-                {selectedat && selectedat.length ? (
-                  <tr>
-                    <td>Will be given at</td>
-                    <td>
-                        {selectedat.map(event => (
-                          <div key={event + `event`}>
-                            {event}
-                          </div>
-                        ))}
-                    </td>
-                  </tr>
-                ) : null}
-                {presentedat && presentedat.length ? (
-                  <tr>
-                    <td>Already given at</td>
-                    <td>
-                        {presentedat.map(event => (
-                          <div key={event + `event`}>
-                            {event}
-                          </div>
-                        ))}
-                    </td>
-                  </tr>
-                ) : null}
-                {slides ? (
-                  <tr>
-                    <td>Slides</td>
-                    <td>
-                        <Link to={slides}>{slides}</Link>
-                    </td>
-                  </tr>
-                ) : null}
-                {videos && videos.length ? (
-                  <tr>
-                    <td>Videos</td>
-                    <td>
-                        {videos.map(video => (
-                          <Link to={video}>
-                            {video}
-                          </Link>
-                        ))}
-                    </td>
-                  </tr>
-                ) : null}
-              </tbody>
-            </table>
-            <h2>Abstract</h2>
-            <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
-            {tags && tags.length ? (
-              <div style={{ marginTop: `4rem` }}>
-                <h4>Tags</h4>
-                <ul className="taglist">
-                  {tags.map(tag => (
-                    <li key={tag + `tag`}>
-                      <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
-                    </li>
-                  ))}
-                </ul>
+    <>
+      <div className="hero is-primary">
+        <div className="hero-body">
+          <div className="container">
+            <div className="colmuns">
+              <div className="column is-10 is-offset-1">
+                <h1 className="title">{(isFr && talktitlefr) || talktitle}</h1>
+                <p className="subtitle">{(isFr && descriptionfr) || description}</p>
               </div>
-            ) : null}
+            </div>
           </div>
         </div>
       </div>
-    </section>
+      <section className="section">
+        {helmet || ''}
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <p className="is-size-5 has-text-weight-bold is-bold-light">
+                {title}
+              </p>
+              <div className="field">
+                <input id="showfr" type="checkbox" name="showfr" className="switch is-primary" checked={isFr} onChange={toggleFr}></input>
+                <label htmlFor="showfr">French translation (where available)</label>
+              </div>
+              <table className="table is-striped is-fullwidth is-bordered">
+                <tbody>
+                  {authors && authors.length ? (
+                    <tr>
+                      <td>Authors</td>
+                      <td>
+                          {authors.map(author => (
+                            <div key={author + `author`}>
+                              {author}
+                            </div>
+                          ))}
+                      </td>
+                    </tr>
+                  ) : null}
+                  <tr>
+                    <td>Last Major Update</td>
+                    <td>{date}</td>
+                  </tr>
+                  <tr>
+                    <td>Type</td>
+                    <td>{type}</td>
+                  </tr>
+                  {selectedat && selectedat.length ? (
+                    <tr>
+                      <td>Will be given at</td>
+                      <td>
+                          {selectedat.map(event => (
+                            <div key={event + `event`}>
+                              {event}
+                            </div>
+                          ))}
+                      </td>
+                    </tr>
+                  ) : null}
+                  {presentedat && presentedat.length ? (
+                    <tr>
+                      <td>Already given at</td>
+                      <td>
+                          {presentedat.map(event => (
+                            <div key={event + `event`}>
+                              {event}
+                            </div>
+                          ))}
+                      </td>
+                    </tr>
+                  ) : null}
+                  {slides ? (
+                    <tr>
+                      <td>Slides</td>
+                      <td>
+                          <Link to={slides}>{slides}</Link>
+                      </td>
+                    </tr>
+                  ) : null}
+                  {videos && videos.length ? (
+                    <tr>
+                      <td>Videos</td>
+                      <td>
+                          {videos.map(video => (
+                            <Link to={video}>
+                              {video}
+                            </Link>
+                          ))}
+                      </td>
+                    </tr>
+                  ) : null}
+                </tbody>
+              </table>
+              <h2>Abstract</h2>
+              <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
+              {tags && tags.length ? (
+                <div style={{ marginTop: `4rem` }}>
+                  <h4>Tags</h4>
+                  <ul className="taglist">
+                    {tags.map(tag => (
+                      <li key={tag + `tag`}>
+                        <Link to={`/tags/${kebabCase(tag)}/`}>{tag}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ) : null}
+            </div>
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 
