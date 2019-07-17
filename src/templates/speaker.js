@@ -120,38 +120,6 @@ export const SpeakerTemplate = ({
                 <PostContent content={converter.makeHtml(previoustalks)} danger="true"/>
                 </>
               ) : null}
-              <h2>Links</h2>
-              <div className="social">
-                {twitterUrl ? (<a title="twitter" href={twitterUrl}>
-                  <img
-                    className="fas fa-lg"
-                    src={twitter}
-                    alt="Twitter"
-                    style={{ width: '1em', height: '1em' }}
-                  />
-                  </a>) : null }
-                  {githubUrl ? (<a title="vimeo" href={githubUrl}>
-                    <img
-                      src={github}
-                      alt="github"
-                      style={{ width: '1em', height: '1em' }}
-                    />
-                  </a>) : null}
-                  {linkedinUrl ? (<a title="linkedin" href={linkedinUrl}>
-                    <img
-                      src={linkedin}
-                      alt="linkedin"
-                      style={{ width: '1em', height: '1em' }}
-                    />
-                  </a>) : null}
-                  {websiteUrl ? (<a title="linkedin" href={websiteUrl}>
-                    <img
-                      src={website}
-                      alt="linkedin"
-                      style={{ width: '1em', height: '1em' }}
-                    />
-                  </a>) : null}
-                </div>
             </div>
           </div>
         </div>
