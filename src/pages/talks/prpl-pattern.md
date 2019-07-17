@@ -7,7 +7,7 @@ date: 2019-05-05T15:21:42.938Z
 featuredpost: false
 description: The Web Performance pattern you should already know!
 authors:
-  - Noël Macé
+  - noelmace
 type: conference (30-45min)
 presentedat:
   - Best of Web 2019

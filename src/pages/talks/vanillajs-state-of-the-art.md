@@ -7,7 +7,7 @@ featuredpost: true
 description: Embrace the power of the Web Platform! A real-life practical guide.
 descriptionfr: Enfin un guide pratique pour utiliser les Web Components dans la vraie vie !
 authors:
-  - Noël Macé
+  - noelmace
 type: conference (30-45min)
 selectedat:
   - Devfest Toulouse 2019

@@ -8,8 +8,8 @@ description: >-
   You think writing your own DSL is time-consuming and complicated? Well, maybe
   you've not yet tried with Kotlin!
 authors:
-  - Baptiste Mesta
-  - Noël Macé
+  - baptistemesta
+  - noelmace
 type: conference (30-45min)
 tags:
   - java & co

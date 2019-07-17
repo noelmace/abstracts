@@ -1,16 +1,18 @@
 import React from 'react'
 
 import Layout from '../../components/Layout'
-import TalksRoll from '../../components/TalksRoll'
+import TalksRoll from '../../components/SpeakersRoll'
+import SpeakersRoll from '../../components/SpeakersRoll';
 
-export default class TalksIndexPage extends React.Component {
+export default class SpeakersIndexPage extends React.Component {
   render() {
     return (
       <Layout>
         <div
           className="full-width-image-container margin-top-0"
           style={{
-            backgroundImage: `url('/img/keyboard.jpeg')`,
+            backgroundImage: `url('/img/mic-crop.jpg')`,
+            backgroundSize: "cover"
           }}
         >
           <h1
@@ -22,13 +24,13 @@ export default class TalksIndexPage extends React.Component {
               padding: '1rem',
             }}
           >
-            Our talks
+            Speakers
           </h1>
         </div>
         <section className="section">
           <div className="container">
             <div className="content">
-              <TalksRoll />
+              <SpeakersRoll />
             </div>
           </div>
         </section>
