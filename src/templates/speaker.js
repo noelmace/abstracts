@@ -7,6 +7,11 @@ import Content, { HTMLContent } from '../components/Content'
 import showdown from 'showdown'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
+import twitter from '../img/social/twitter.svg'
+import linkedin from '../img/social/linkedin.svg'
+import github from '../img/github-icon.svg'
+import website from '../img/social/web.svg'
+
 const converter = new showdown.Converter()
 
 export const SpeakerTemplate = ({
@@ -18,6 +23,10 @@ export const SpeakerTemplate = ({
   jobtitle,
   alias,
   picture,
+  twitterUrl,
+  githubUrl,
+  linkedinUrl,
+  websiteUrl,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -37,7 +46,39 @@ export const SpeakerTemplate = ({
                   <div className="column is-four-fifths-desktop is-three-quarters-tablet is-two-thirds-mobile">
                     <h1 className="title">{firstname} {lastname}</h1>
                     <p className="subtitle">{jobtitle}</p>
+                    <div className="social">
+                      {twitterUrl ? (<div><a title="twitter" href={twitterUrl}>
+                        <img
+                          className="fas fa-lg"
+                          src={twitter}
+                          alt="Twitter"
+                          style={{ width: '1em', height: '1em' }}
+                        />
+                        </a></div>) : null }
+                        {githubUrl ? (<div><a title="vimeo" href={githubUrl}>
+                          <img
+                            src={github}
+                            alt="github"
+                            style={{ width: '1em', height: '1em' }}
+                          />
+                        </a></div>) : null}
+                        {linkedinUrl ? (<div><a title="linkedin" href={linkedinUrl}>
+                          <img
+                            src={linkedin}
+                            alt="linkedin"
+                            style={{ width: '1em', height: '1em' }}
+                          />
+                        </a></div>) : null}
+                        {websiteUrl ? (<div><a title="linkedin" href={websiteUrl}>
+                          <img
+                            src={website}
+                            alt="linkedin"
+                            style={{ width: '1em', height: '1em' }}
+                          />
+                        </a></div>) : null}
+                      </div>
                   </div>
+                  
                   <div className="column">
                     {picture ? (
                       <div className="featured-thumbnail">
@@ -52,6 +93,7 @@ export const SpeakerTemplate = ({
                       </div>
                     ) : null}
                   </div>
+                  
                 </div>
               </div>
             </div>
@@ -71,8 +113,39 @@ export const SpeakerTemplate = ({
               
               <h2>Bio</h2>
               <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
+              <h2>Links</h2>
+              <div className="social">
+                {twitterUrl ? (<a title="twitter" href={twitterUrl}>
+                  <img
+                    className="fas fa-lg"
+                    src={twitter}
+                    alt="Twitter"
+                    style={{ width: '1em', height: '1em' }}
+                  />
+                  </a>) : null }
+                  {githubUrl ? (<a title="vimeo" href={githubUrl}>
+                    <img
+                      src={github}
+                      alt="github"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>) : null}
+                  {linkedinUrl ? (<a title="linkedin" href={linkedinUrl}>
+                    <img
+                      src={linkedin}
+                      alt="linkedin"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>) : null}
+                  {websiteUrl ? (<a title="linkedin" href={websiteUrl}>
+                    <img
+                      src={website}
+                      alt="linkedin"
+                      style={{ width: '1em', height: '1em' }}
+                    />
+                  </a>) : null}
+                </div>
             </div>
-            
           </div>
         </div>
       </section>
@@ -104,6 +177,10 @@ const Speaker = ({ data }) => {
         jobtitle={post.frontmatter.jobtitle}
         alias={post.frontmatter.alias}
         picture={post.frontmatter.picture}
+        twitterUrl={post.frontmatter.twitter}
+        githubUrl={post.frontmatter.github}
+        linkedinUrl={post.frontmatter.linkedin}
+        websiteUrl={post.frontmatter.website}
         helmet={
           <Helmet titleTemplate="%s | Talks">
             <title>{`${post.frontmatter.firstname} ${post.frontmatter.lastname}`}</title>
@@ -133,6 +210,10 @@ export const pageQuery = graphql`
         firstname
         lastname
         alias
+        twitter
+        github
+        linkedin
+        website
         picture {
           childImageSharp {
             fluid(maxWidth: 200, quality: 100) {
