@@ -6,12 +6,7 @@ date: 2019-07-08T23:53:08.307Z
 featuredpost: true
 description: >-
   The F.I.R.E. safety kit for everyone! Learn the best new capabilities of the
-  Modern Web in one shot without burning out!
-
-
-  [comment - you can delete this when it's answered - do you specifically mean
-  this when you use the term Modern Web? : https://modernweb.com/about/] If so,
-  initial caps are ok, if not, use lower-case]
+  modern web in one shot without burning out!
 authors:
   - Noël Macé
 type: Deep dive (2-3h)
@@ -58,6 +53,6 @@ This can also be:
 * a short talk with just the introduction about the current state of PWA
 * a session with just an introduction of each sub-chapters
 * a session with only one of the sub-chapters
-* hands-on-lab or workshop (?)
+* hands-on-lab/workshop
 
 As the idea is to constantly follow modern web evolution, these specific topics may change before this event if I have been able to test them enough to bring value to the audience.
