@@ -2,7 +2,7 @@
 templateKey: speaker
 alias: baptistemesta
 firstname: Baptiste
-lantname: Mesta
+lastname: Mesta
 jobtitle: R&D Engineer
 picture: /img/baptistemesta.jpeg
 bodyfr: >+

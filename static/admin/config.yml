@@ -38,7 +38,7 @@ collections:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "speaker"}
       - {label: "Alias", name: "alias", widget: "string"}
       - {label: "First Name", name: "firstname", widget: "string"}
-      - {label: "Last Name", name: "lantname", widget: "string"}
+      - {label: "Last Name", name: "lastname", widget: "string"}
       - {label: "Job Title", name: "jobtitle", widget: "string"}
       - {label: "Profile picture", name: "picture", widget: image}
       - {label: "Bio", name: "body", widget: "markdown", required: false}
