@@ -1,11 +1,11 @@
 import React, {useState} from 'react'
 import PropTypes from 'prop-types'
-import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
-import { graphql, Link } from 'gatsby'
+import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
 import showdown from 'showdown'
+import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 
 const converter = new showdown.Converter()
 
@@ -17,6 +17,7 @@ export const SpeakerTemplate = ({
   lastname,
   jobtitle,
   alias,
+  picture,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -26,26 +27,56 @@ export const SpeakerTemplate = ({
   const toggleFr = () => setFrState(!isFr);
 
   return (
-    <section className="section">
-      {helmet || ''}
-      <div className="container content">
-        <div className="columns">
-          <div className="column is-10 is-offset-1">
-            <p className="is-size-5 has-text-weight-bold is-bold-light">
-              {alias}
-            </p>
-            <div className="field">
-              <input id="showfr" type="checkbox" name="showfr" className="switch is-primary" checked={isFr} onChange={toggleFr}></input>
-              <label htmlFor="showfr">French translation (where available)</label>
+    <>
+      <div className="hero is-primary">
+        <div className="hero-body">
+          <div className="container">
+            <div className="colmuns">
+              <div className="column is-10 is-offset-1">
+                <div className="columns is-mobile is-vcentered">
+                  <div className="column is-four-fifths-desktop is-three-quarters-tablet is-two-thirds-mobile">
+                    <h1 className="title">{firstname} {lastname}</h1>
+                    <p className="subtitle">{jobtitle}</p>
+                  </div>
+                  <div className="column">
+                    {picture ? (
+                      <div className="featured-thumbnail">
+                        <PreviewCompatibleImage
+                          imageInfo={{
+                            image: picture,
+                            alt: `profile picture of ${
+                              alias
+                            }`
+                          }}
+                        />
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+              </div>
             </div>
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">{firstname} {lastname}</h1>
-            <p className="is-size-4 has-text-weight-bold is-bold-light">{jobtitle}</p>
-            <h2>Bio</h2>
-            <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
           </div>
         </div>
       </div>
-    </section>
+      <section className="section">
+        {helmet || ''}
+        
+        <div className="container content">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="field">
+                <input id="showfr" type="checkbox" name="showfr" className="switch is-primary" checked={isFr} onChange={toggleFr}></input>
+                <label htmlFor="showfr">French translation (where available)</label>
+              </div>
+              
+              <h2>Bio</h2>
+              <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} />
+            </div>
+            
+          </div>
+        </div>
+      </section>
+    </>
   )
 }
 
@@ -72,6 +103,7 @@ const Speaker = ({ data }) => {
         lastname={post.frontmatter.lastname}
         jobtitle={post.frontmatter.jobtitle}
         alias={post.frontmatter.alias}
+        picture={post.frontmatter.picture}
         helmet={
           <Helmet titleTemplate="%s | Talks">
             <title>{`${post.frontmatter.firstname} ${post.frontmatter.lastname}`}</title>
@@ -101,6 +133,13 @@ export const pageQuery = graphql`
         firstname
         lastname
         alias
+        picture {
+          childImageSharp {
+            fluid(maxWidth: 120, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }

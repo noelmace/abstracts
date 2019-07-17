@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql, StaticQuery } from 'gatsby'
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 class SpeakersRoll extends React.Component {
   render() {
@@ -16,6 +17,19 @@ class SpeakersRoll extends React.Component {
                 className="talks-list-item tile is-child box notification"
               >
                 <header>
+                  {speaker.frontmatter.picture ? (
+                    <div className="featured-thumbnail">
+                      <PreviewCompatibleImage
+                        imageInfo={{
+                          image: speaker.frontmatter.picture,
+                          alt: `profile picture of ${
+                            speaker.frontmatter.alias
+                          }`,
+                          style: { maxHeight: '5em' }
+                        }}
+                      />
+                    </div>
+                  ) : null}
                   <p className="post-meta has-text-centered">
                     <Link
                       className="title has-text-primary is-size-4 is-block"
@@ -23,11 +37,11 @@ class SpeakersRoll extends React.Component {
                     >
                       {speaker.frontmatter.firstname} {speaker.frontmatter.lastname}
                     </Link>
+                    <span className="subtitle is-size-5 is-block">
+                      {speaker.frontmatter.jobtitle}
+                    </span>
                   </p>
                 </header>
-                <p className="">
-                  {speaker.frontmatter.jobtitle}
-                </p>
                 <p>
                   {speaker.excerpt}
                   <br />
@@ -72,6 +86,13 @@ export default () => (
                 firstname
                 lastname
                 jobtitle
+                picture {
+                  childImageSharp {
+                    fluid(maxWidth: 120, quality: 100) {
+                      ...GatsbyImageSharpFluid
+                    }
+                  }
+                }
               }
             }
           }
