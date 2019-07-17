@@ -16,6 +16,9 @@ twitter: 'https://twitter.com/baptistemesta'
 github: 'https://github.com/baptistemesta'
 linkedin: 'https://www.linkedin.com/in/baptistemesta/'
 previoustalks: >-
+* [DeveloperWeek](https://www.developerweek.com/) 2019: [Gradle: One Technology to Build Them All
+](https://developerweek2019.sched.com/event/JJ2K)
+
   * [Devoxx France](https://www.devoxx.fr/) 2019: [Coder des processus métier
   avec un DSL Kotlin dans une application Spring
   Boot](https://cfp.devoxx.fr/2019/talk/HFF-6888/Coder_des_processus_metier_avec_un_DSL_Kotlin_dans_une_application_Spring_Boot)
