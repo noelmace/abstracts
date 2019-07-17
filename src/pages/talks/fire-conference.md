@@ -3,8 +3,8 @@ templateKey: talks-post
 title: FIRE conference
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!! (conference edition)"
 date: 2019-07-10T08:04:46.842Z
-featuredpost: false
-descriptionfr: "Toutes les dernières nouveautées de la Web Platform, leurs apports niveau UX, et des cas concret ! En un talk ! \U0001F92F\n\n"
+featuredpost: true
+descriptionfr: "Toutes les dernières nouveautés de la Web Platform, leurs apports niveau UX, et des cas concret ! En un talk ! \U0001F92F\n\n"
 authors:
   - Noël Macé
 type: conference (30-45min)
@@ -25,11 +25,8 @@ bodyfr: >-
   Il est temps de se mettre à jour ! Prenons quelques minutes pour :
 
    1. faire le point sur les tous derniers drafts du W3C, WICG et WHATWG
-
    2. les démontrer dans le browser
-
-   3. présenter leurs application concrêtes et ce que ça apporte à nos utilisateurs
-
+   3. présenter leurs application concrètes et ce que ça apporte à nos utilisateurs
    4. découvrir une méthodologie globale pour toujours opérer la transition sereinement
 
   Alors, prêt pour le turfu du web ?!
@@ -38,7 +35,7 @@ bodyfr: >-
   ## Détails
 
 
-  Sous la même banière "Web on F.I.R.E.", je présente depuis 1 an deux aspects :
+  Sous la même bannière "Web on F.I.R.E.", je présente depuis 1 an deux aspects :
 
 
   1. bien utiliser les toutes dernières évolutions afin de proposer une
@@ -48,18 +45,18 @@ bodyfr: >-
   de la Web platform
 
 
-  L'accronyme "F.I.R.E." me sert donc ici de fil conducteur afin de toujours
-  ramener une techno à son interêt concret pour l'utilisateur, plutôt que de
+  L’acronyme "F.I.R.E." me sert donc ici de fil conducteur afin de toujours
+  ramener une techno à son intérêt concret pour l'utilisateur, plutôt que de
   présenter celle-ci uniquement d'un point de vue technique sans contexte.
 
 
-  Pas d'inventaire à la Prévert donc, mais une vrais vision globale et concrête
+  Pas d'inventaire à la Prévert donc, mais une vrais vision globale et concrète
   de ce que les évolutions du web nous apportent.
 
 
   Cela a donné lieu à une université au Breizhcamp (voir la vidéo
   https://youtu.be/OQ-dr-7pLaA), un workshop au Bestofweb, et plusieurs talks
-  détaillants une techno ou méthodo en particulier.
+  détaillants une techno ou méthodologie en particulier.
 
 
   Pour plus de détails, voir fire.noelmace.com.
