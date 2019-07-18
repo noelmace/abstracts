@@ -85,9 +85,9 @@ For two years, since I presented the first talk called "Web on F.I.R.E.," I have
 1. how to use the latest evolution of the web platform to provide a better user experience
 2. deconstruction of misconceptions that the community has about PWA and the Web platform
 
-Here, I use the "F.I.R.E." acronym as a category under which I can offer a number of related talks on the Progressive Web App principles. This way, I can always keep a focus on the real, concrete benefits a new technology can bring to the end-user, with context, rather than presenting it only from a technical perspective.
+Here, I use the "F.I.R.E." acronym as a category under which I can offer a number of related talks on the Progressive Web App principles & modern web benefits. This way, I can always keep a focus on the real, concrete benefits a new technology can bring to the end-user, with context, rather than presenting it only from a technical perspective.
 
-Therefore, this is not just a list of ongoing changes to the web platform, but a global and concrete vision of what these changes could bring to us, the developers & web app end-users.
+Therefore, this is not just a list of ongoing additions to the web standards, but a global and concrete vision of what these advances could bring to us, the developers & web app end-users.
 
 This work gave rise to a university at Breizhcamp (see the video on [youtu.be/OQ-dr-7pLaA](https://youtu.be/OQ-dr-7pLaA)), a workshop at BestOfWeb, and several close-up sessions, each detailing a particular technology or methodology.
 
