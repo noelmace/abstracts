@@ -2,7 +2,7 @@
 templateKey: talks-post
 title: DSL with Kotlin
 talktitle: '"All these words I don''t just say": DSL with Kotlin, and nothing else matters'
-date: 2019-07-09
+date: '2019-07-09'
 featuredpost: true
 description: >-
   You think writing your own DSL is time-consuming and complicated? Well, maybe

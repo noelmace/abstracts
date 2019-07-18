@@ -2,7 +2,7 @@
 templateKey: talks-post
 title: F.I.R.E. university
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!!"
-date: 2019-07-08
+date: '2019-07-08'
 featuredpost: true
 description: >-
   The F.I.R.E. safety kit for everyone! Learn the best new capabilities of the

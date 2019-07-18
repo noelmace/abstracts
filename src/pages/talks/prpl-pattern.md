@@ -3,7 +3,7 @@ templateKey: talks-post
 title: P.R.P.L Pattern
 talktitle: "\U0001F9B8‍♂️PRPL: it’s time to learn up with the Fantastic Four!"
 talktitlefr: "Il est temps de rejoindre les 4 fantastiques du Web : Push, Render, Pre-cache & Lazy-load !"
-date: 2019-05-05
+date: '2019-05-05'
 featuredpost: false
 description: The Web Performance pattern you should already know!
 authors:

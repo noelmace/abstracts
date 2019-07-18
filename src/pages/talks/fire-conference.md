@@ -2,7 +2,7 @@
 templateKey: talks-post
 title: FIRE conference
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!! (conference edition)"
-date: 2019-07-10
+date: '2019-07-10'
 featuredpost: true
 description: >-
   The F.I.R.E. safety kit for everyone! Learn the best new capabilities of the
