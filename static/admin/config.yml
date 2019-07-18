@@ -48,6 +48,7 @@ collections:
       - {label: "Linkedin (absolute url)", name: "linkedin", widget: "string", required: false}
       - {label: "Website (absolute url)", name: "website", widget: "string", required: false}
       - {label: "List all of your previous speaking engagements", name: "previoustalks", widget: "markdown", required: false}
+      - {label: "Speaker profiles", name: "profilesUrls", widget: "list", required: false}
   - name: "pages"
     label: "Pages"
     files:

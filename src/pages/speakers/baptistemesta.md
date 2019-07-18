@@ -28,6 +28,8 @@ previoustalks: >-
 
   * AlpesJUG (May 2019): [Coder des processus métier avec un DSL Kotlin dans une
   application Spring Boot](http://www.alpesjug.fr/?p=3282)
+profilesUrls:
+  - https://sessionize.com/baptiste-mesta
 ---
 Baptiste Mesta holds a Master's degree in Computer Science from Télécom Nancy.
 He has worked in software development for 9 years, joining Bonitasoft at the very beginning of the company. He has worked primarily on the backend execution engine of the Bonita process-based application platform, which he helped build from scratch. He has also worked on developer tooling and user interfaces while building tools to help the team. Most recently he has taken an interest in Artificial Intelligence, to compute predictions on business process execution.

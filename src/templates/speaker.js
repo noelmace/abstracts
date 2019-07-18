@@ -28,6 +28,7 @@ export const SpeakerTemplate = ({
   linkedinUrl,
   websiteUrl,
   previoustalks,
+  profilesUrls,
   helmet,
 }) => {
   const PostContent = contentComponent || Content
@@ -120,6 +121,18 @@ export const SpeakerTemplate = ({
                 <PostContent content={converter.makeHtml(previoustalks)} danger="true"/>
                 </>
               ) : null}
+              {profilesUrls && profilesUrls.length ? (
+                <>
+                  <h2>Speaker profiles</h2>
+                  <ul>
+                    {profilesUrls.map(url => (
+                      <li key={url + `url`}>
+                        <a href={url} target="_blank" rel="noopener noreferrer">{url}</a>
+                      </li>
+                    ))}
+                  </ul>
+                </>
+              ) : null}
             </div>
           </div>
         </div>
@@ -157,6 +170,7 @@ const Speaker = ({ data }) => {
         linkedinUrl={post.frontmatter.linkedin}
         websiteUrl={post.frontmatter.website}
         previoustalks={post.frontmatter.previoustalks}
+        profilesUrls={post.frontmatter.profilesUrls}
         helmet={
           <Helmet titleTemplate="%s | Talks">
             <title>{`${post.frontmatter.firstname} ${post.frontmatter.lastname}`}</title>
@@ -191,6 +205,7 @@ export const pageQuery = graphql`
         linkedin
         website
         previoustalks
+        profilesUrls
         picture {
           childImageSharp {
             fluid(maxWidth: 200, quality: 100) {
