@@ -2,7 +2,7 @@
 templateKey: talks-post
 title: VanillaJS  state of the art
 talktitle: "Brace yourself, \U0001F366Vanilla is coming … back \U0001F576!"
-date: '2019-07-08'
+date: '2019-07-18'
 featuredpost: true
 description: Embrace the power of the Web Platform! A real-life practical guide.
 descriptionfr: Enfin un guide pratique pour utiliser les Web Components dans la vraie vie !
@@ -14,26 +14,55 @@ selectedat:
 tags:
   - webdev
   - web components
-bodyfr: |
-  Dans un monde de saveurs complexes et sophistiquées, la guerre du toping fait rage à Web-steros ! Face au champs de bataille, les pronostiques vont bon train pour savoir qui l’emportera entre le crunchy Angulaire, le fondant Reactifs et le décoratif Vue. Durant ce temps, loin de ces vicissitudes, la petite saveur basique vanille avance encore et toujours vers son destin. S’agirait-il du héro de la légende, susceptible de renverser le destin de ce monde sans heurts ?
+bodyfr: >
+  Dans un monde de saveurs complexes et sophistiquées, la guerre du toping fait
+  rage à Web-steros ! Face au champs de bataille, les pronostiques vont bon
+  train pour savoir qui l’emportera entre le crunchy Angulaire, le fondant
+  Reactifs et le décoratif Vue. Durant ce temps, loin de ces vicissitudes, la
+  petite saveur basique vanille avance encore et toujours vers son destin.
+  S’agirait-il du héro de la légende, susceptible de renverser le destin de ce
+  monde sans heurts ?
 
-  Sache, voyageur, qu’elle est déjà passée par nos contrées. Viens, et écoute son histoire. Laisse moi te raconter comment elle nous a permis de renverser notre vieux roi, et tu saura enfin ce qui se prépare pour ton royaume.
+
+  Sache, voyageur, qu’elle est déjà passée par nos contrées. Viens, et écoute
+  son histoire. Laisse moi te raconter comment elle nous a permis de renverser
+  notre vieux roi, et tu saura enfin ce qui se prépare pour ton royaume.
+
 
   ## Détails
 
-  Retour d’expérience (notamment) sur notre migration progressive d’app complexe (avec entre autre du AngularJS, et oui…) vers du vanilla chez BonitaSoft.
 
-  Dans la tendance actuelle de remettre en cause l’omniprésence des frameworks web, je m’attache durant ce talk à présenter les nouvelles approches possibles en vanilla.
+  Retour d’expérience (notamment) sur notre migration progressive d’app complexe
+  (avec entre autre du AngularJS, et oui…) vers du vanilla chez BonitaSoft.
+
+
+  Dans la tendance actuelle de remettre en cause l’omniprésence des frameworks
+  web, je m’attache durant ce talk à présenter les nouvelles approches possibles
+  en vanilla.
+
 
   Principaux éléments :
 
+
   ce que les nouveaux standards apportent
-  - faire des web components à haut niveau : interactions, maintenabilité et performances
-  - les micro-librairies du moment (notamment lit-element, lit-html et pwa-helpers) et leur utilité
+
+  - faire des web components à haut niveau : interactions, maintenabilité et
+  performances
+
+  - les micro-librairies du moment (notamment lit-element, lit-html et
+  pwa-helpers) et leur utilité
+
   - routing
+
   - state management
+
   - tests
 ---
+## Elevator pitch
+
+Tired of hearing everyone telling you that you're favorite web framework/library is dead? Still loving VanillaJS? You need a talk with distance and hindsight to see what the future of the Web Platform could really change for you! Well, here it is.
+
+## Long abstract
 
 In a world of complex and sophisticated flavors, the battle for toppings among
 the ice cream families is raging in Web-steros! Who knows who will win between
@@ -47,7 +76,11 @@ Hear my story, traveler! My old eyes have seen him in these lands! Let me tell
 you how he helped us taking down our old king, and you shall learn how he
 could help you too...
 
-## Details & Notes
+## Requirements
+
+Basic knowledge of javascript and webdev
+
+## Notes for reviewers
 
 This talk will include feedback from our migration process from AngularJS to Vanilla at Bonitasoft this year.
 
