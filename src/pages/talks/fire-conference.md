@@ -4,10 +4,15 @@ title: FIRE conference
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!! (conference edition)"
 date: 2019-07-10
 featuredpost: true
+description: >-
+  The F.I.R.E. safety kit for everyone! Learn the best new capabilities of the
+  modern web in one shot without burning out!
 descriptionfr: "Toutes les dernières nouveautés de la Web Platform, leurs apports niveau UX, et des cas concret ! En un talk ! \U0001F92F\n\n"
 authors:
   - noelmace
 type: conference (30-45min)
+selectedat:
+  - Devfest Nantes 2019
 slides: 'https://fire.noelmace.com'
 videos:
   - 'https://youtu.be/OQ-dr-7pLaA'
@@ -17,7 +22,7 @@ tags:
   - UX
   - PWA
 bodyfr: >-
-  La Web platform évolue en permanence ! Et ça fait 4 ans qu'on évoque les 4
+  La Web Plateforme évolue en permanence ! Et ça fait 4 ans qu'on évoque les 4
   même technos pour appliquer les 4 grands éléments qui font une bonne web app :
   Fast, Integrated, Reliable & Engaging !
 
@@ -35,14 +40,15 @@ bodyfr: >-
   ## Détails
 
 
-  Sous la même bannière "Web on F.I.R.E.", je présente depuis 1 an deux aspects :
+  Sous la même bannière "Web on F.I.R.E.", je présente depuis 1 an deux aspects
+  :
 
 
   1. bien utiliser les toutes dernières évolutions afin de proposer une
   meilleure expérience utilisateur
 
   2. déconstruire de fausses idées que la communauté se fait au sujet des PWA et
-  de la Web platform
+  de la Web Plateforme
 
 
   L’acronyme "F.I.R.E." me sert donc ici de fil conducteur afin de toujours

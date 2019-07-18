@@ -74,7 +74,7 @@ export default () => (
                 talktitle
                 templateKey
                 description
-                date(formatString: "MMMM DD, YYYY")
+                date(formatString: "YYYY-MM-DD")
                 featuredpost
               }
             }
