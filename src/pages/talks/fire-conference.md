@@ -2,7 +2,7 @@
 templateKey: talks-post
 title: FIRE conference
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!! (conference edition)"
-date: '2019-07-10'
+date: '2019-07-18'
 featuredpost: true
 description: >-
   The F.I.R.E. safety kit for everyone! Learn the best new capabilities of the
@@ -77,3 +77,19 @@ It's time to get up to speed! Let's take a few minutes to:
 4. explore a global methodology to always transition smoothly
 
 So, are you ready for the future of the web?
+
+## Details
+
+I started two years ago to present, under the same banner "Web on F.I.R.E.", web development best practices in two ways:
+1. how to use the latest evolutions of the web platform to provide a better user experience
+2. deconstruct misconceptions that the community has about PWA and the Web platform
+
+Here, I use the "F.I.R.E." acronym as a thread. This way, I can always bring back the focus on the real, concrete benefits a new technology could bring to  the end-user, rather than only presenting it from a technical perpective, without context.
+
+Therefore, this is not just a list of some evolutions of the Web Plateform, but a global and concrete vision of what the evolutions of the web could bring to us, developers & web apps end-users.
+
+This gave rise to a university at Breizhcamp (see the video on [youtu.be/OQ-dr-7pLaA](https://youtu.be/OQ-dr-7pLaA)), a workshop at the Bestofweb, and several talks detailing a techno or methodology in particular.
+
+This same talk will also be given soon at [Devfest Nantes](https://devfest.gdgnantes.com/fr/).
+
+For more details, see [fire.noelmace.com](https://fire.noelmace.com).
