@@ -80,12 +80,12 @@ So, are you ready for the future of the web?
 
 ## Details
 
-Two years ago I first presented the talk categorized as "Web on F.I.R.E." which offers web development best practices in two ways:
+For two years, since I presented the first talk called "Web on F.I.R.E.," I have focused my attention on this subject. It offers web development best practices in two ways:
 
 1. how to use the latest evolution of the web platform to provide a better user experience
 2. deconstruction of misconceptions that the community has about PWA and the Web platform
 
-Here, I use the "F.I.R.E." acronym as a category under which I can offer a number of related talks. This way, I can always keep a focus on the real, concrete benefits a new technology can bring to the end-user, with context, rather than presenting it only from a technical perpective.
+Here, I use the "F.I.R.E." acronym as a category under which I can offer a number of related talks on the Progressive Web App principles. This way, I can always keep a focus on the real, concrete benefits a new technology can bring to the end-user, with context, rather than presenting it only from a technical perspective.
 
 Therefore, this is not just a list of ongoing changes to the web platform, but a global and concrete vision of what these changes could bring to us, the developers & web app end-users.
 
