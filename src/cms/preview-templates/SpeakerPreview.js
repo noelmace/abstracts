@@ -16,6 +16,7 @@ const TalksPostPreview = ({ entry, widgetFor }) => (
     linkedinUrl={entry.getIn(['data', 'linkedin'])}
     websiteUrl={entry.getIn(['data', 'website'])}
     previoustalks={entry.getIn(['data', 'previoustalks'])}
+    profilesUrls={entry.getIn(['data', 'profilesUrls'])}
   />
 )
 
