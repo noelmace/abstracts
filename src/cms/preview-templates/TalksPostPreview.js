@@ -15,7 +15,7 @@ const TalksPostPreview = ({ entry, widgetFor }) => (
     talktitle={entry.getIn(['data', 'talktitle'])}
     talktitlefr={entry.getIn(['data', 'talktitlefr'])}
     authors={entry.getIn(['data', 'authors'])}
-    date={entry.getIn(['data', 'date']).toString()}
+    date={entry.getIn(['data', 'date'])}
     type={entry.getIn(['data', 'type'])}
     slides={entry.getIn(['data', 'slides'])}
     videos={entry.getIn(['data', 'videos'])}
