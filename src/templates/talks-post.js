@@ -128,7 +128,6 @@ export const TalksPostTemplate = ({
                   ) : null}
                 </tbody>
               </table>
-              <h2>Abstract</h2>
               <PostContent content={(isFr && contentfr && converter.makeHtml(contentfr)) || content} danger={isFr && !!contentfr} />
               {tags && tags.length ? (
                 <div style={{ marginTop: `4rem` }}>
