@@ -2,7 +2,7 @@
 templateKey: talks-post
 title: F.I.R.E. university
 talktitle: "The Web is on \U0001F525 F.I.R.E. \U0001F525 !!!"
-date: '2019-07-08'
+date: '2019-07-18'
 featuredpost: true
 description: >-
   The F.I.R.E. safety kit for everyone! Learn the best new capabilities of the
@@ -23,11 +23,17 @@ tags:
   - performance
   - UX
 ---
+## Elevator Pitch
+
+Four years ago the idea of PWAs arrived in the world! It brought a whole new approach to mobile & web apps development, often summarized as F.I.R.E. (Fast Integrated Reliable & Engaging). But the web platform is constantly evolving and mutating, so how has F.I.R.E. technology evolved with it?
+
+## Long Abstracts
+
 Four years ago the idea of _Progressive Web Apps_ arrived in the world. This brought a whole new approach to mobile & web apps development, often summarized as F.I.R.E. (Fast Integrated Reliable & Engaging). But the web platform is constantly evolving and mutating, so how has F.I.R.E. technology evolved with it?
 
 Join me to explore four cutting-edge technologies (one for each F.I.R.E. concept) that will help bring your web apps to the next level!
 
-## Details
+## Details for reviewers
 
 This is my main track since the beginning of 2019 and I give it a lot of time and effort, always experimenting with new web APIs and approaches. This is also the talk I receive the best feedback about (e.g. "best talk of BestOfWeb so far," "clearer talk about PWA I ever saw"). Since 2018, I try to advocate new ways to think specifically about PWA, and globally about web apps and web sites. I started by entirely rebuilding the associated "PWA SFEIR School" (a free 2 day-long class) last year as it was part of my job, and I gave this course 4 times. Since then, I add 4 new related topics every 6 months.
 
@@ -46,7 +52,7 @@ The 4 current sub-chapters are:
 * Reliable: introduction to service workers and background fetch
 * Engaging: media query level 5
 
-## Notes
+## Notes for reviewers
 
 This can also be:
 
