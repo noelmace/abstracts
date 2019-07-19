@@ -21,7 +21,7 @@ profilesUrls:
   - 'https://sessionize.com/noelmace'
   - 'https://conference-hall.io/speaker/profile'
 ---
-Passionate about sharing technical knowledge and about meeting and helping people, Noël loves to teach and has offered talks on diverse topics from the very beginning of his career in technology. He is a web developer, a former mobile and Java developer, with experience in learning design, teaching, software architecture, and technical management. Based on this wide experience, he now focuses on the developer community as a Developer Advocate at Bonitasoft, where he helps developers around the world master the modern capabilities of the Web (among other things) though talks, blog posts and OSS contributions.
+Passionate about sharing technical knowledge and about meeting and helping people, Noël loves to teach and has offered talks on diverse topics from the very beginning of his career in technology. He is a web developer, a former mobile and Java developer, with experience in learning design, teaching, software architecture, and technical management. Based on this wide experience, he now focuses on the developer community as a Developer Advocate at Bonitasoft, where he helps developers around the world master the modern capabilities of the Web (among other things) through talks, blog posts and OSS contributions.
 
 ### Additional Information
 
