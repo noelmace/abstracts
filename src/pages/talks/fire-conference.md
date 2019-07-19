@@ -67,13 +67,11 @@ bodyfr: >-
 
   Pour plus de détails, voir fire.noelmace.com.
 ---
-## Elevator Pitch
+## Abstract
 
 The Web platform is constantly evolving...and it's been 4 years now that we are still talking about the same 4 technologies for the 4 key elements that make a great web app: Fast, Integrated, Reliable & Engaging.
 
 It's time to get up to speed!
-
-## Details
 
 Let's take a few minutes to:
 
@@ -81,6 +79,8 @@ Let's take a few minutes to:
 2. demonstrate each of them in the browser
 3. present concrete applications and what each brings to our users
 4. explore a global methodology to always transition smoothly
+
+So, are you ready for the future of the web?
 
 ## Requirements
 
