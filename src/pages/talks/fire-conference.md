@@ -67,6 +67,8 @@ bodyfr: >-
 
   Pour plus de détails, voir fire.noelmace.com.
 ---
+## Long abstract
+
 The Web platform is constantly evolving...and it's been 4 years now that we are still talking about the same 4 technologies for the 4 key elements that make a great web app: Fast, Integrated, Reliable & Engaging.
 
 It's time to get up to speed! Let's take a few minutes to:
@@ -78,7 +80,11 @@ It's time to get up to speed! Let's take a few minutes to:
 
 So, are you ready for the future of the web?
 
-## Details
+## Requirements
+
+Basic knowledge of javascript and webdev
+
+## Notes for reviewers
 
 For two years, since I presented the first talk called "Web on F.I.R.E.," I have focused my attention on this subject. It offers web development best practices in two ways:
 
@@ -94,3 +100,4 @@ This work gave rise to a university at Breizhcamp (see the video on [youtu.be/OQ
 This same talk will also be given soon at [Devfest Nantes](https://devfest.gdgnantes.com/fr/).
 
 For more details, see [fire.noelmace.com](https://fire.noelmace.com).
+
