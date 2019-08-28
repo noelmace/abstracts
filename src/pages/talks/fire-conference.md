@@ -40,7 +40,7 @@ bodyfr: >-
   ## Détails
 
 
-  Sous la même bannière "Web on F.I.R.E.", je présente depuis 1 an deux aspects
+  Sous la même bannière "Web on F.I.R.E.", je présente depuis bientôt 2 an deux aspects
   :
 
 
@@ -60,10 +60,9 @@ bodyfr: >-
   de ce que les évolutions du web nous apportent.
 
 
-  Cela a donné lieu à une université au Breizhcamp (voir la vidéo
-  https://youtu.be/OQ-dr-7pLaA), un workshop au Bestofweb, et plusieurs talks
-  détaillants une techno ou méthodologie en particulier.
-
+  Cela a donné et donnera lieu à un deep dive au Devoxx Belgium 2019, un talk au Devfest Nantes 2019,
+  une université au Breizhcamp (voir la vidéo https://youtu.be/OQ-dr-7pLaA), un workshop
+  au Bestofweb, et plusieurs talks détaillants une techno ou méthodologie en particulier.
 
   Pour plus de détails, voir fire.noelmace.com.
 ---
@@ -97,9 +96,8 @@ Here, I use the "F.I.R.E." acronym as a category under which I can offer a numbe
 
 Therefore, this is not just a list of ongoing additions to the web standards, but a global and concrete vision of what these advances could bring to us, the developers & web app end-users.
 
-This work gave rise to a university at Breizhcamp (see the video on [youtu.be/OQ-dr-7pLaA](https://youtu.be/OQ-dr-7pLaA)), a workshop at BestOfWeb, and several close-up sessions, each detailing a particular technology or methodology.
+This work gave and will give rise to a "Deep Dive" session at Devoxx Belgium university at Breizhcamp (see the video on [youtu.be/OQ-dr-7pLaA](https://youtu.be/OQ-dr-7pLaA)), a talk at Devfest Nantes, a workshop at BestOfWeb, and several close-up sessions, each detailing a particular technology or methodology.
 
 This same talk will also be given soon at [Devfest Nantes](https://devfest.gdgnantes.com/fr/).
 
 For more details, see [fire.noelmace.com](https://fire.noelmace.com).
-

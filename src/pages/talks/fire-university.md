@@ -11,7 +11,7 @@ authors:
   - noelmace
 type: Deep dive (2-3h)
 selectedat:
-  - ''
+  - Devoxx Belgium 2019
 presentedat:
   - BreizhCamp 2019
 slides: 'http://fire.noelmace.com'
@@ -31,7 +31,7 @@ Join me to explore four cutting-edge technologies (one for each F.I.R.E. concept
 
 This is my main track since the beginning of 2019 and I give it a lot of time and effort, always experimenting with new web APIs and approaches. This is also the talk I receive the best feedback about (e.g. "best talk of BestOfWeb so far," "clearer talk about PWA I ever saw"). Since 2018, I try to advocate new ways to think specifically about PWA, and globally about web apps and web sites. I started by entirely rebuilding the associated "PWA SFEIR School" (a free 2 day-long class) last year as it was part of my job, and I gave this course 4 times. Since then, I add 4 new related topics every 6 months.
 
-First version (university) presented at BreizhCamp 2019 (https://youtu.be/OQ-dr-7pLaA & https://www.breizhcamp.org/conference/programme/). A second version was given as a Workshop at Best of Web 2019 (http://bestofweb.paris/). The Sub-chapter on PRPL was presented as a 45-min talk at Best of Web 2019 (http://bestofweb.paris/).
+First version (university) presented at BreizhCamp 2019 (https://youtu.be/OQ-dr-7pLaA & https://www.breizhcamp.org/conference/programme/). A second version was given as a Workshop at Best of Web 2019 (http://bestofweb.paris/). Last version will be presented at Devoxx Belgium 2019. The Sub-chapter on PRPL was presented as a 45-min talk at Best of Web 2019 (http://bestofweb.paris/).
 
 Key ideas:
 
