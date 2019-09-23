@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Bonita Talks
-image: /img/homepage_marquee_f.jpg
-heading: Have fun public speaking with Bonita!
-subheading: Talks abstracts & more, with ♡ from Bonitasoft
+title: Web on F.I.R.E.
+image: /img/fire.jpg
+heading: The F.I.R.E. safety kit for everyone!
+subheading: Learn the best new capabilities of the modern web without burning out!
 ---

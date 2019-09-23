@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Bonita Talks',
+    title: 'WoF Show - Talks Abstracts',
     description:
-      'Talks abstracts & more, with ♡ from Bonitasoft'
+      'Talks abstracts & more, with ♡ from Wof.Show'
     },
   plugins: [
     'gatsby-plugin-react-helmet',

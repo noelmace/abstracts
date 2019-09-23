@@ -21,8 +21,6 @@ bodyfr: |
 
   ## Détails
 
-  Retour d’expérience (notamment) sur notre migration progressive d’app complexe (avec entre autre du AngularJS, et oui…) vers du vanilla chez BonitaSoft.
-
   Dans la tendance actuelle de remettre en cause l’omniprésence des frameworks web, je m’attache durant ce talk à présenter les nouvelles approches possibles en vanilla.
 
   Principaux éléments :
@@ -48,8 +46,6 @@ you how he helped us taking down our old king, and you shall learn how he
 could help you too...
 
 ## Details & Notes
-
-This talk will include feedback from our migration process from AngularJS to Vanilla at Bonitasoft this year.
 
 Following an increasing number of talks, articles, and discussions lately recommending to embrace the power of the web platform by becoming more independent of web frameworks, here, I give a full, “real life” practical guide to this approach.
 
