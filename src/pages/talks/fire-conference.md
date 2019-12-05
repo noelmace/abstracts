@@ -15,7 +15,7 @@ selectedat:
   - Devfest Nantes 2019
 slides: 'https://conf.wof.show/'
 videos:
-  - 'https://youtu.be/OQ-dr-7pLaA'
+  - 'https://www.youtube.com/watch?v=_byWU9V4fXw'
 tags:
   - webdev
   - performance
