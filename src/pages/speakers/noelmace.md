@@ -6,17 +6,16 @@ lastname: Macé
 jobtitle: Web Advocado on F.I.R.E.
 picture: /img/noelmace.jpg
 bodyfr: >
-  Noël est un passionné de DevRel,
-  d'enseignement, et de transmission de compétences en général. Tour à tour
-  ingénieur pédagogique, formateur, architecte, développeur web et developer advocate depuis plus de
-  10 ans, il consacre aujourd'hui l’essentiel de son temps à accompagner la
-  communauté vers une meilleure maîtrise et adoption des capacités modernes du
-  Web.
+  Noël est un passionné de DevRel, d'enseignement, et de transmission de
+  compétences en général. Tour à tour ingénieur pédagogique, formateur,
+  architecte, développeur web et developer advocate depuis plus de 10 ans, il
+  consacre aujourd'hui l’essentiel de son temps à accompagner la communauté vers
+  une meilleure maîtrise et adoption des capacités modernes du Web.
 twitter: 'https://twitter.com/noel_mace'
 github: 'https://github.com/noelmace'
 linkedin: 'https://www.linkedin.com/in/noelmace/'
-website: 'http://fire.noelmace.com'
-previoustalks: "* (soon) [Devfest Nantes 2019](https://devfest.gdgnantes.com/fr/): The Web is on F.I.R.E\n* (soon) [Devfest Toulouse 2019](https://devfesttoulouse.fr/): Brace yourself, \U0001F366Vanilla is coming … back \U0001F576!\n* [Best of Web 2019](http://bestofweb.paris/): PRPL: it’s time to learn up with the Fantastic Four!\n* [Best of Web 2019](http://bestofweb.paris/): The Web is on F.I.R.E (workshop)\n* [BreizhCamp 2019](https://www.breizhcamp.org/conference/programme/): The Web is still on F.I.R.E\n* [Angular Connect 2018](https://past.angularconnect.com/2018/): [Deep dive into Angular CLI 7](https://past.angularconnect.com/2018/talks.html#noel-mace) (workshop)\n* [NantesJS](https://nantesjs.org/) (Feb. 2019): ML driven UX made easy with Guess.js\n* [Capitole du libre 2018](https://2018.capitoledulibre.org/): Réconcilier l’ESN avec la communauté et le logiciel libre\n* Algolia Tech Lunch (Oct. 2018): Of code & Avocados\n* AngularX Paris (July 2018): Angular mono-repositories\n* [SFEIR Schools](https://www.sfeir.com/formation/school) Angular & PWA/Modern Web\n* many workshops & talks as a professional trainer, speaker & head of teaching between 2009 & 2015\n* and many more.\n\nGo check [bit.ly/noel-talks](http://bit.ly/noel-talks) for some video recordings.\n"
+website: 'https://noelmace.com'
+previoustalks: "* [Paris Open Source Summit 2019](https://www.opensourcesummit.paris/): The Web is on FIRE\n* [Paris Open Source Summit 2019](https://www.opensourcesummit.paris/): Modern Vanilla Web / Le retour du web moderne avec VanillaJS\n* [Devoxx Belgium 2019](https://devoxx.be): The Web is on FIRE (Deep-dive)\n* [Devfest Nantes 2019](https://devfest.gdgnantes.com/fr/): The Web is on FIRE\n* [ParisWeb 2019](https://www.paris-web.fr/2019/conferences/the-web-is-on-fire.php): The Web is on FIRE\n* [Devfest Toulouse 2019](https://devfesttoulouse.fr/): Brace yourself, \U0001F366Vanilla is coming … back \U0001F576!\n* [Best of Web 2019](http://bestofweb.paris/): PRPL: it’s time to learn up with the Fantastic Four!\n* [Best of Web 2019](http://bestofweb.paris/): The Web is on FIRE (workshop)\n* [BreizhCamp 2019](https://www.breizhcamp.org/conference/programme/): The Web is still on FIRE\n* [Angular Connect 2018](https://past.angularconnect.com/2018/): [Deep dive into Angular CLI 7](https://past.angularconnect.com/2018/talks.html#noel-mace) (workshop)\n* [NantesJS](https://nantesjs.org/) (Feb. 2019): ML driven UX made easy with Guess.js\n* [Capitole du libre 2018](https://2018.capitoledulibre.org/): Réconcilier l’ESN avec la communauté et le logiciel libre\n* Algolia Tech Lunch (Oct. 2018): Of code & Avocados\n* AngularX Paris (July 2018): Angular mono-repositories\n* [SFEIR Schools](https://www.sfeir.com/formation/school) Angular & PWA/Modern Web\n* many workshops & talks as a professional trainer, speaker & head of teaching between 2009 & 2015\n* and many more.\n\nGo check [bit.ly/noel-talks](http://bit.ly/noel-talks) for some video recordings."
 profilesUrls:
   - 'https://sessionize.com/noelmace'
   - 'https://conference-hall.io/speaker/profile'
