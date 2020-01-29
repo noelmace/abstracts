@@ -10,7 +10,17 @@ exports.onRenderBody = function({ setHeadComponents, setPostBodyComponents }) {
 
     setHeadComponents([
         // EN GREVE
-        <script src="https://noelmace.github.io/widget-engreve/widget.js" async></script>
+        <script
+            dangerouslySetInnerHTML={{
+                __html: `
+                    var DIGITAL_STRIKE_OPTIONS = {
+                        showCloseButtonOnFullPageWidget: true,
+                        alwaysShowWidget: true
+                    };
+                `
+            }}
+        />,
+        <script src="https://onestla.tech/widget-engreve/widget.js" async />
     ]);
 
     setPostBodyComponents([
