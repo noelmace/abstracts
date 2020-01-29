@@ -12,8 +12,8 @@ authors:
   - noelmace
 type: conference (30-45min)
 selectedat:
-  - Devfest Nantes 2019
-slides: 'https://fire.noelmace.com'
+  - Devfest BDM 2019
+slides: 'https://devoxxbe-2019.noelmace.com'
 videos:
   - 'https://youtu.be/OQ-dr-7pLaA'
 tags:
@@ -60,11 +60,10 @@ bodyfr: >-
   de ce que les évolutions du web nous apportent.
 
 
-  Cela a donné et donnera lieu à un deep dive au Devoxx Belgium 2019, un talk au Devfest Nantes 2019,
-  une université au Breizhcamp (voir la vidéo https://youtu.be/OQ-dr-7pLaA), un workshop
-  au Bestofweb, et plusieurs talks détaillants une techno ou méthodologie en particulier.
+  Cela a donné et donnera lieu à un deep dive au Devoxx Belgium 2019 et au Breizhcamp 2019, 
+  un talk au Devfest du bout du monde 2020, au Devfest Nantes 2019 et au Paris Open Source Summit 2019,
+  un workshop aux Bestofweb 2019 et Devfest Paris 2020, et plusieurs talks détaillants une techno ou méthodologie en particulier.
 
-  Pour plus de détails, voir fire.noelmace.com.
 ---
 ## Abstract
 
@@ -96,8 +95,4 @@ Here, I use the "F.I.R.E." acronym as a category under which I can offer a numbe
 
 Therefore, this is not just a list of ongoing additions to the web standards, but a global and concrete vision of what these advances could bring to us, the developers & web app end-users.
 
-This work gave and will give rise to a "Deep Dive" session at Devoxx Belgium university at Breizhcamp (see the video on [youtu.be/OQ-dr-7pLaA](https://youtu.be/OQ-dr-7pLaA)), a talk at Devfest Nantes, a workshop at BestOfWeb, and several close-up sessions, each detailing a particular technology or methodology.
-
-This same talk will also be given soon at [Devfest Nantes](https://devfest.gdgnantes.com/fr/).
-
-For more details, see [fire.noelmace.com](https://fire.noelmace.com).
+This work gave and will give rise to a "Deep Dive" session at Devoxx Belgium university and at Breizhcamp, a talk at Devfest Nantes & Paris Open Source Summit 2019, a workshop at BestOfWeb, and several close-up sessions, each detailing a particular technology or methodology.
